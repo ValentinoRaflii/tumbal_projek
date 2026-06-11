@@ -1,0 +1,23 @@
+{
+  "name": "blockchain-donation-system",
+  "version": "1.0.0",
+  "description": "Decentralized disaster donation platform on Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia",
+    "deploy:localhost": "npx hardhat run scripts/deploy.js --network localhost",
+    "verify": "npx hardhat verify",
+    "clean": "npx hardhat clean",
+    "interact": "node scripts/interact.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1"
+  }
+}

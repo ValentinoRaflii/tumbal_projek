@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\muhra\\Downloads\\tumbal_projek-main\\tumbal_projek-main\\blockchain\\contracts\\DisasterDonation.sol": {
+      "lastModificationDate": 1781197598648,
+      "contentHash": "fb2eb3e0b6f4fff47cf84667d22d7baa",
+      "sourceName": "contracts/DisasterDonation.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "DisasterDonation"
+      ]
+    }
+  }
+}
